@@ -1,0 +1,55 @@
+:Author: tadashi-hamada
+:Email: {benelyon.tadashi.hamada.molgeri@gmail.com}
+:Date: 06/06/2022
+:Revision: version 1
+:License: MIT Public Domain
+
+= Project: PIR Visitor Counter
+
+Describe your project
+
+== Step 1: Installation
+To install this projects simply install it off GitHub or the Arduino Forum
+
+== Step 2: Assemble the circuit
+
+This project uses the Grove LED and Buzzer module added with a Grove PIR sensor controlled via a Seeeduino Lotus V1.1 ATMEGA328.
+Plug the grove cables together or modify the code according to your needs.
+You may also use the standard modules with the standard wiring.
+
+== Step 3: Load the code
+
+Upload the code contained in this sketch on to your board
+
+=== Folder structure
+
+....
+ Visitor_Counter.ino      => Arduino sketch folder
+  ├── Visitor_Counter.ino => main Arduino file
+  └── ReadMe.adoc         => this file
+....
+
+=== License
+This project is released under a MIT License.
+
+=== Contributing
+To contribute to this project please contact tadashi-hamada https://id.arduino.cc/tadashi-hamada
+
+=== BOM
+
+|===
+| Part name                       | Part number | Quantity
+| SEEEDUINO LOTUS V1.1 ATMEGA328  | 102010168   | 1
+| Grove LED                       | 104030005   | 1
+| Grove PIR Sensor                | 101020020   | 1
+| Grove Buzzer                    | 107020000   | 1
+| Grove OLED Screen               | 104020208   | 1
+|===
+
+
+=== Sources
+To do this project succesfully I had to source from multiple people that actually did the work...I just put it together...
+For the OLED library http://www.rinkydinkelectronics.com/library.php?id=79
+For most of this code https://my-creative-engineering.blogspot.com/2017/10/description-demonstrates-use-128x64-i2c_56.html
+
+The above link is a tutorial with a pushbutton, I used a PIR Sensor instead.
